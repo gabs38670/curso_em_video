@@ -19,3 +19,9 @@ n = n * 4 // n *= 4
 n = n / 2 // n /= 2
 n = n ** 2 // n **= 2
 n = n % 5 // n %= 5
+
+
+// OPERADORES PARTE (2)
+// relacionais : > < >= <= == === !=
+//Lógicos ! negação   && conjução  || disjunção
+// ternário teste? true : false
