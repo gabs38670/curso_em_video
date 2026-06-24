@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <label>Digite o país que você nasceu:
+        <input type="text" name="cidadania" id="cidadania" >
+        <input type="button" value="enviar" onclick="pais()">
+        <div id="res">
+
+        </div>
+    </label>
+    <script>
+        function pais(){
+            let cidadania = document.getElementById('cidadania').value
+            let res = document.getElementById('res')
+            if(cidadania == "brasil" || cidadania == "Brasil"){
+                res.innerHTML = `<p>Você é Brasileiro</p> `
+            }else{
+                res.innerHTML = `<p>Você é Estrangeiro</p>` 
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
